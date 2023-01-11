@@ -125,7 +125,8 @@ In this example, I've defined a class called Islands which takes a 2D binary gri
 
 dfs(r, c) is the same as the previously defined function, but now it's a method of the Islands class, so it has access to the self.grid attribute, which stores the input grid.
 numIslands() is also the same as before, but now it's a method of the Islands class, so it has access to the self.islands attribute which stores the total number of islands found in the grid.
-The class instance is then created by providing the grid to the constructor, which is passed to the self.grid attribute. Finally, numIslands method is called on the class instance to get the total number of islands found in the grid.
+The class instance is then created by providing the grid to the constructor, which is passed to the self.grid attribute. Finally, numIslands method is called on the class instance to get the total 
+number of islands found in the grid.
 
 Now the grid is an attribute of class and the state of the class is not modified after each call. So it can be reused multiple time with the same grid.
 '''
@@ -159,7 +160,9 @@ class Islands:
         return self.islands
 
 '''
-In this example, I've replaced the DFS method for BFS, which is implemented in the bfs(self, r, c) method. This method uses a queue data structure to keep track of the cells that need to be visited. It starts with the initial cell (r,c), and while there are still cells in the queue, it pops the first one and checks if it is a land ('1'). If it is, it marks the cell as visited ('0'), and appends its neighbors to the queue.
+In this example, I've replaced the DFS method for BFS, which is implemented in the bfs(self, r, c) method. This method uses a queue data structure to keep track of the cells that need to be visited.
+ It starts with the initial cell (r,c), and while there are still cells in the queue, 
+it pops the first one and checks if it is a land ('1'). If it is, it marks the cell as visited ('0'), and appends its neighbors to the queue.
 
 The rest of the class remains the same, but now it's using bfs instead of dfs, making the algorithm more efficient when dealing with sparse grids and also reducing memory complexity as well.
 
