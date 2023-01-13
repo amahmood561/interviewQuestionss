@@ -1,0 +1,73 @@
+Screening Questions (provide answers along with submission):
+
+• Describe a difficult bug you were tasked with fixing in a large application. How did you debug the issue?
+One difficult bug I recall from a large Python application I worked on was related to memory leaks. The application was a web service that processed large amounts of data and ran for prolonged periods of time. Over time, the service's memory usage would gradually increase until it eventually caused the service to crash.
+
+To debug this issue, I first started by adding print statements to the code to trace the memory usage of the service at various points. This helped me identify which parts of the code were causing the memory usage to increase. I also used a memory profiler to identify any objects that were being retained in memory even after they were no longer needed.
+
+Next, I used a heap dump to further investigate the objects that were being retained in memory and find out where they were being created. This helped me identify a specific function that was creating large numbers of unnecessary objects and not properly cleaning them up.
+
+I then made changes to the function to properly clean up the objects and release them from memory. To ensure that the changes fixed the memory leak, I ran the service for an extended period and monitored the memory usage. The memory usage remained stable, indicating that the leak had been fixed.
+
+Additionally, I also added some test cases to the function to make sure that the changes are working as expected and there is no regression in the future.
+
+In summary, to debug the memory leak issue, I used a combination of print statements, a memory profiler, heap dump, and test cases, which helped me identify the root cause of the issue and devise a solution to fix it.
+
+• What is the newest development technology or paradigm that has caught your interest? Could you tell me about this?
+One of the newest development technologies that has caught my interest is the use of AI-based techniques in software development. This includes things like using machine learning to improve code quality, automate testing, and even generate code.
+
+One specific area within this field that has been gaining a lot of attention is the use of GPT-3 models for code generation. GPT-3 is a state-of-the-art language generation model developed by OpenAI. It has been trained on a massive amount of text data and is capable of generating natural language text that is often indistinguishable from text written by humans.
+
+Several startups and researchers have been experimenting with using GPT-3 to generate code. By providing GPT-3 with examples of code and a prompt describing what the code should do, it can generate code that is syntactically correct and often semantically similar to the examples. This has the potential to significantly reduce the time and effort required for tasks such as writing boilerplate code, testing, and even coding from scratch.
+
+However, it's important to note that GPT-3 based code generation is still in the early stages of development and it may not be ready for production use yet. It's important to evaluate the generated code and test it thoroughly before using it in a production environment. Additionally, the generated code may not always be the most optimal or efficient solution and a human developer should review it.
+
+Overall, the use of AI-based techniques in software development is an exciting and rapidly evolving field that has the potential to revolutionize the way we develop software.
+
+• What are your thoughts on automated software testing?
+Automated software testing is a valuable tool for ensuring the quality and reliability of software. It can help identify and prevent errors, bugs and regressions, and improve the overall stability of the system.
+
+One of the main advantages of automated testing is that it can be run repeatedly and consistently, which helps to identify and resolve issues early in the development process. This can save time and resources compared to manual testing, and can also increase the overall efficiency and effectiveness of the development process.
+
+Automated testing can also help to increase the coverage of testing, making it possible to test a wider range of scenarios and inputs than would be feasible with manual testing. This can help to uncover issues that might not have been identified otherwise.
+
+However, it's also important to note that automated testing is not a panacea and should be used in conjunction with other testing techniques, such as manual testing, exploratory testing and user testing. Automated testing can be used to validate that the system behaves as expected, but it's not able to test for usability, user experience or other non-functional aspects.
+
+Additionally, automated testing requires a good amount of planning and setup in order to be effective. It's important to have a clear understanding of the testing requirements and to have a well-designed test suite that covers all the necessary scenarios and edge cases.
+
+Overall, automated testing can be a powerful tool for improving the quality and reliability of software. It should be used in conjunction with other testing techniques and with a well thought out plan to achieve the best results.
+
+• What programming language would you use for programming a small robotics or sensor project? How about for a Facebook or twitter clone?
+For a small robotics or sensor project, I would recommend using a programming language that is well suited for real-time systems and low-level programming. Some popular choices for this type of project include C++ and Python.
+
+C++ is a powerful, high-performance language that is well suited for low-level programming, such as interfacing with hardware and controlling robots. It also has a wide range of libraries and frameworks available for robotics, such as ROS (Robot Operating System).
+
+Python is also a good choice for robotics projects because it is an easy-to-learn, high-level programming language that is well suited for prototyping and quick development. It also has a wide range of libraries and frameworks available for robotics, such as ROS and Pybotics.
+
+For a Facebook or twitter clone, I would recommend using a web framework that is built on top of a modern programming language. One popular choice is Ruby on Rails which is built on top of Ruby. Ruby on Rails is a web framework that makes it easy to build web applications quickly and with minimal code. It's well suited for rapid development, and has a lot of gems and plugins that can be used to add functionality like user authentication, authorization and so on.
+
+Another choice would be to use a web framework that's built on top of Python, such as Django. Django is a powerful, high-level web framework that is well suited for building complex web applications. It also has a lot of packages and libraries that can be used to add functionality like user authentication and authorization.
+
+In summary, for a small robotics or sensor project, C++ or Python could be a good choice, while for a Facebook or twitter clone, Ruby on Rails or Django could be a good choice. The final decision depends on the specific requirements and constraints of the project, as well as the experience and preferences of the development team.
+• In your opinion, what are the principles of good software engineering? What are some basic principles everyone should follow?
+
+
+In my opinion, some of the principles of good software engineering include:
+
+Maintainability: The software should be easy to understand, modify, and maintain, and should be structured in a logical and clear way.
+
+Reusability: The software should be designed to be reusable, so that it can be easily adapted for use in other projects.
+
+Scalability: The software should be designed to be able to handle an increase in usage or data without a significant decrease in performance.
+
+Testability: The software should be designed in such a way that it can be easily tested, and that test cases are comprehensive and automated.
+
+Performance: The software should be designed to be efficient and perform well, and should be optimized for the intended usage.
+
+Security: The software should be designed to protect against potential security threats, such as unauthorized access and data breaches.
+
+Documenting: The software should be well-documented, including clear and accurate documentation of the code, design, and requirements.
+
+Collaboration: The software should be designed to facilitate collaboration among developers and other stakeholders, and should be open to feedback and input.
+
+These are some basic principles that everyone should follow, but it's worth noting that the specific principles will depend on the project, and the development team's experience and preferences. Additionally, software engineering principles may change over time as technology and best practices evolve, so it's important to stay up-to-date with the latest developments and trends in the field.
