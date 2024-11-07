@@ -45,3 +45,15 @@ root = TreeNode('*',
 
 result = evaluate_tree(root)
 print(result)  # Output should be 45
+'''
+Explanation:
+TreeNode class: This class represents each node in the tree. value is either an integer (for leaves) or an operator (for internal nodes). left and right are the left and right children of the node, respectively.
+
+evaluate_tree function:
+
+If the node is a leaf (has no children), it directly returns its integer value.
+If the node is an operator, it recursively evaluates the left and right subtrees.
+Once the left and right values are obtained, it applies the operator and returns the result.
+
+
+'''
