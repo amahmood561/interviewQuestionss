@@ -1,6 +1,6 @@
 def divide(dividend: int, divisor: int) -> int:
     if divisor == 0:
-        raise ValueError("Division by zero is undefined.")
+        raise ValueError("Division by zero is undefined.")l
     
     quotient = 0
     temp_dividend = dividend
