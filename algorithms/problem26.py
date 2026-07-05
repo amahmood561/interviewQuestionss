@@ -6,7 +6,7 @@ Generate a finite, but an arbitrarily large binary tree quickly in O(1).
 
 That is, generate() should return a tree whose size is unbounded but finite.
 
-'''
+r'''
 
 
 import random
@@ -44,7 +44,7 @@ def print_tree(node, depth=0):
 root = generate()  # O(1) to generate root
 print("Tree (partial expansion):")
 print_tree(root)   # Expands nodes lazily as we access them
-'''
+r'''
 
 ### Explanation:
 
