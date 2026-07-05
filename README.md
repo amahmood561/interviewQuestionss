@@ -15,10 +15,10 @@ machine-learning/
 scratchpad/
 ```
 
-- `algorithms/` contains classic interview problems: arrays, strings, trees, graphs, tries, heaps, search, math, and data structures.
+- `algorithms/` contains algorithmbased interview q's I experienced : arrays, strings, trees, graphs, tries, heaps, search, math, and data structures.
 - `systems-and-backend/` contains practical engineering problems: networking, billing, game state, unit conversion, and constraint validation.
 - `machine-learning/` contains ML and LLM-oriented work.
-- `scratchpad/` contains rougher attempts, notes, experiments, and files that are part of the learning trail but not the first things I would ask an interviewer to review.
+- `scratchpad/` contains rougher attempts, notes, experiments, and files that I was askedyet to organize into correct foler. its todo
 
 ## What This Shows
 
@@ -50,7 +50,7 @@ scratchpad/
 
 ### Algorithms
 
-`algorithms/` is the main interview-practice library. It includes:
+`algorithms/` is my  main interview lib. It includes:
 
 - Foundations: Two Sum, median of sorted arrays, linked-list addition, number of islands, and sliding windows.
 - Trees: traversal, same-tree checking, balanced BST construction, level sums, subtree checks, expression trees, and tree transformation.
