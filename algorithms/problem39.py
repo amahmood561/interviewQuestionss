@@ -5,12 +5,12 @@ class TreeNode:
         self.right = None
 
 def convert_to_full_binary_tree(root):
-    r"""
+    """
     Converts a binary tree to a full binary tree by removing nodes with only one child.
 
     :param root: TreeNode - The root of the binary tree.
     :return: TreeNode - The root of the full binary tree.
-    r"""
+    """
     if root is None:
         return None
 
@@ -28,7 +28,7 @@ def convert_to_full_binary_tree(root):
     return root
 
 def build_sample_tree():
-    """
+    r"""
     Builds the sample tree provided in the problem statement.
 
              0
