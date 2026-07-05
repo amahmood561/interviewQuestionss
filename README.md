@@ -1,10 +1,10 @@
 # Interview Questions
 
-This repository is my interview preparation archive: a record of the problems I have worked through while preparing for technical interviews, take-home challenges, and algorithm-heavy conversations.
+This repository is my interview tech questions I have archived. record of the problems I have worked through live for technical interviews, take-home challenges, and algorithm-heavy conversations.
 
 It is a mix of polished solutions, active practice, notes, experiments, and hard-earned attempts. I keep it because it shows more than whether I can solve one isolated problem. It shows how I think, how I learn, how I keep going when a problem is uncomfortable, and how I build fluency through repetition.
 
-This repo is a small bastion of trial by combat.
+This repo is a small bastion of trial by combat :).
 
 ## Repository Structure
 
@@ -89,7 +89,7 @@ scratchpad/
 
 ## How To Read This Repo
 
-If you are reviewing this as an interviewer, I recommend starting with the highlights table above. Those files show the range best: algorithmic thinking, real product logic, state modeling, systems practice, and machine learning curiosity.
+I recommend starting with the highlights table above. Those files show the range best: algorithmic thinking, real product logic, state modeling, systems practice, and machine learning curiosity.
 
 The folder structure is intentional. The main folders show the strongest signal quickly. The `scratchpad/` folder preserves the process: unfinished ideas, mistakes, rough attempts, and the kind of repetition that actually builds skill.
 
@@ -112,4 +112,4 @@ I want this repo to communicate a few things clearly:
 
 ## Closing
 
-This repository is not only a list of interview questions. It is evidence of preparation, curiosity, resilience, and the ability to wrestle with hard problems until they become understandable.
+This repository is not only a list of interview questions I succeeded on and failed through. It is artifact evidence of preparation, curiosity, resilience, and the ability to wrestle with hard problems until they become understandable.
